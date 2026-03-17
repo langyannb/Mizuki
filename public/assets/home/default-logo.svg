@@ -1,0 +1,50 @@
+<svg viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .japanese-bold { 
+      font-size: 80px; 
+      font-weight: 800; 
+      font-family: "Yu Gothic", "Segoe UI", "Hiragino Sans", "Microsoft YaHei", sans-serif;
+      letter-spacing: 2px;
+    }
+    .japanese-sub {
+      font-size: 22px;
+      font-weight: 400;
+      font-family: "Yu Gothic", "Segoe UI", "Hiragino Sans", sans-serif;
+      letter-spacing: 4px;
+      fill: #7C8C9E;
+    }
+  </style>
+
+  <!-- 纯白背景，大量留白 -->
+
+  <!-- 左侧图形：极简日系波浪 + 小圆点 -->
+  <g transform="translate(30, 45)">
+    <!-- 最简波浪：只用3条粗细变化的弧线 -->
+    <path d="M10,60 Q35,35 60,60" stroke="#2B7C7C" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M25,80 Q50,55 75,80" stroke="#4FA8A8" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.7"/>
+    <path d="M40,100 Q65,75 90,100" stroke="#80C0C0" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.5"/>
+    
+    <!-- 日系标志性小圆点，代表“颜” -->
+    <circle cx="95" cy="60" r="10" fill="#F28B82" opacity="0.9"/>
+    <circle cx="30" cy="45" r="6" fill="#F2B56B" opacity="0.7"/>
+  </g>
+
+  <!-- 右侧文字：粗字！粗字！粗字！ -->
+  <g transform="translate(170, 100)">
+    <!-- 浪颜 超大粗黑 -->
+    <text x="0" y="0" class="japanese-bold" fill="#2D4F5C">浪颜</text>
+    
+    <!-- 博客 同样粗，但颜色略浅保持层次 -->
+    <text x="210" y="8" font-size="58" font-weight="700" font-family="Yu Gothic, Segoe UI, Hiragino Sans, sans-serif" fill="#4F6F7A" dominant-baseline="middle">博客</text>
+    
+    <!-- 日系罗马音小字 -->
+    <text x="15" y="50" class="japanese-sub">NAMI · BLOG</text>
+    
+    <!-- 极简装饰线 -->
+    <line x1="15" x2="140" y1="70" y2="70" stroke="#A6C9C9" stroke-width="3"/>
+  </g>
+
+  <!-- 背景：极淡的日系云纹/水纹，若有若无 -->
+  <path d="M100,150 Q250,135 400,150" stroke="#C9E1E1" stroke-width="20" fill="none" opacity="0.3" stroke-linecap="round"/>
+  <path d="M150,165 Q300,145 450,165" stroke="#D6EAEA" stroke-width="16" fill="none" opacity="0.25" stroke-linecap="round"/>
+</svg>
