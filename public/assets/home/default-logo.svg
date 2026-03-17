@@ -1,50 +1,53 @@
-<svg viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .japanese-bold { 
-      font-size: 80px; 
-      font-weight: 800; 
-      font-family: "Yu Gothic", "Segoe UI", "Hiragino Sans", "Microsoft YaHei", sans-serif;
-      letter-spacing: 2px;
-    }
-    .japanese-sub {
-      font-size: 22px;
-      font-weight: 400;
-      font-family: "Yu Gothic", "Segoe UI", "Hiragino Sans", sans-serif;
-      letter-spacing: 4px;
-      fill: #7C8C9E;
-    }
-  </style>
+<svg viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 暖色渐变系列 -->
+    <linearGradient id="warm1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7E5F" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#FEB47B" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FF7E5F" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="warm2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#FFA07A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FF6B6B" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="warm3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB347" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FF8C42" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="warm4" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9A5A" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FF6F61" stop-opacity="0.9"/>
+    </linearGradient>
+    <!-- 微光滤镜 -->
+    <filter id="warmGlow" x="-0.02" y="-0.02" width="1.04" height="1.04">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#FFB57C" flood-opacity="0.5"/>
+    </filter>
+  </defs>
 
-  <!-- 纯白背景，大量留白 -->
+  <!-- 完全透明背景 -->
 
-  <!-- 左侧图形：极简日系波浪 + 小圆点 -->
-  <g transform="translate(30, 45)">
-    <!-- 最简波浪：只用3条粗细变化的弧线 -->
-    <path d="M10,60 Q35,35 60,60" stroke="#2B7C7C" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.9"/>
-    <path d="M25,80 Q50,55 75,80" stroke="#4FA8A8" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.7"/>
-    <path d="M40,100 Q65,75 90,100" stroke="#80C0C0" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- 四个大字：每个字都有独特设计，粗+暖+透明 -->
+  <g transform="translate(50, 200)">
+    <!-- 浪：左侧加一道暖色波浪切割线 -->
+    <text x="0" y="0" font-size="160" font-weight="900" font-family="'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" fill="url(#warm1)" filter="url(#warmGlow)">浪</text>
+    <path d="M30,-20 Q60,-40 90,-20" stroke="#FFA07A" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"/>
     
-    <!-- 日系标志性小圆点，代表“颜” -->
-    <circle cx="95" cy="60" r="10" fill="#F28B82" opacity="0.9"/>
-    <circle cx="30" cy="45" r="6" fill="#F2B56B" opacity="0.7"/>
+    <!-- 颜：右上角加小圆点，像脸颊暖光 -->
+    <text x="170" y="0" font-size="160" font-weight="900" font-family="'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" fill="url(#warm2)" filter="url(#warmGlow)">颜</text>
+    <circle cx="270" cy="-40" r="14" fill="#FFB347" opacity="0.8"/>
+    
+    <!-- 博：左侧加一道暖色竖线，拉长视觉 -->
+    <text x="340" y="0" font-size="160" font-weight="900" font-family="'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" fill="url(#warm3)" filter="url(#warmGlow)">博</text>
+    <rect x="330" y="-70" width="8" height="120" fill="#FF9A5A" opacity="0.6" rx="4"/>
+    
+    <!-- 客：右下角加暖色小点，平衡构图 -->
+    <text x="510" y="0" font-size="160" font-weight="900" font-family="'Segoe UI', 'Helvetica Neue', 'Microsoft YaHei', sans-serif" fill="url(#warm4)" filter="url(#warmGlow)">客</text>
+    <circle cx="620" cy="40" r="12" fill="#FF8C42" opacity="0.7"/>
   </g>
 
-  <!-- 右侧文字：粗字！粗字！粗字！ -->
-  <g transform="translate(170, 100)">
-    <!-- 浪颜 超大粗黑 -->
-    <text x="0" y="0" class="japanese-bold" fill="#2D4F5C">浪颜</text>
-    
-    <!-- 博客 同样粗，但颜色略浅保持层次 -->
-    <text x="210" y="8" font-size="58" font-weight="700" font-family="Yu Gothic, Segoe UI, Hiragino Sans, sans-serif" fill="#4F6F7A" dominant-baseline="middle">博客</text>
-    
-    <!-- 日系罗马音小字 -->
-    <text x="15" y="50" class="japanese-sub">NAMI · BLOG</text>
-    
-    <!-- 极简装饰线 -->
-    <line x1="15" x2="140" y1="70" y2="70" stroke="#A6C9C9" stroke-width="3"/>
-  </g>
-
-  <!-- 背景：极淡的日系云纹/水纹，若有若无 -->
-  <path d="M100,150 Q250,135 400,150" stroke="#C9E1E1" stroke-width="20" fill="none" opacity="0.3" stroke-linecap="round"/>
-  <path d="M150,165 Q300,145 450,165" stroke="#D6EAEA" stroke-width="16" fill="none" opacity="0.25" stroke-linecap="round"/>
+  <!-- 暖色光晕点缀，增加氛围但不抢眼 -->
+  <circle cx="200" cy="80" r="50" fill="#FFB57C" opacity="0.1"/>
+  <circle cx="750" cy="220" r="60" fill="#FF9A5A" opacity="0.08"/>
+  <circle cx="850" cy="60" r="40" fill="#FF6B6B" opacity="0.06"/>
 </svg>
