@@ -1,49 +1,47 @@
+---
+title: 关于我
+---
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/matsuzaka-yuki/mizuki) theme.
+# 🌟 关于浪颜博客
 
-::github{repo="matsuzaka-yuki/Mizuki"}
+欢迎来到我的个人博客！这里是我分享技术教程和生活感悟的小天地。
 
-## 🌟 Theme Features
+## 📖 博客简介
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+**浪颜博客** ([www.namikao.com](https://www.namikao.com)) 是一个专注于分享实用教程和个人生活的技术博客。
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+### 主要分享内容：
+- 🎮 **辅助工具教程** - 游戏辅助的使用教程与技巧
+- 💻 **网站源码分享** - 实用的网站源码和部署教程
+- 🔧 **技术教程** - 各种实用软件和工具的使用方法
+- 📝 **生活分享** - 日常感悟和个人经历
 
+## 👨‍💻 关于作者
 
+我是 **浪颜**，一个热爱技术、乐于分享的开发者。希望通过这个博客，能帮助更多人解决使用中的问题，分享实用的工具和技巧。
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
+## 💬 联系我
 
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
-
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+- 🌐 **博客**：[www.namikao.com](https://www.namikao.com)
+- 💬 **官方QQ群**：`1091276303`
+- 📡 **TG频道**：[@Aevum_pd](https://t.me/Aevum_pd)
 
 ---
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+## 🛠 博客功能
+
+本博客使用 **Astro** 框架构建，采用 [Mizuki](https://github.com/matsuzaka-yuki/mizuki) 主题，提供以下功能：
+
+- 🔍 **高级搜索** - 快速找到你需要的内容
+- 🌓 **暗色/亮色模式** - 自动切换，护眼舒适
+- 📱 **完全响应式** - 手机、平板、电脑完美适配
+- 🏷️ **标签分类** - 轻松浏览相关文章
+- 📊 **阅读时长** - 了解每篇文章的阅读时间
+- 🧮 **数学公式支持** - LaTeX 渲染
+- 💻 **代码高亮** - 优美的代码展示
+
+---
+
+*感谢你的访问，希望能在这里找到对你有帮助的内容！*
+
+> 💡 **温馨提示**：如果教程有任何问题，欢迎加群反馈交流~
