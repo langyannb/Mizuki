@@ -22,7 +22,7 @@ permalink: "aevum-module"
 
 ### 🛡️ 防封说明
 > 关于防封教程，请移步查看：  
-> 👉 [DY端口使用教程 - 防封部分](/posts/DY-study/#温馨提示)
+> 👉 [DY端口使用教程 - 防封部分](/DY-study)
 
 ### ⚠️ 免责声明
 > 此辅助为 XP 模块，可使用 LSPosed 注入至游戏内。  
