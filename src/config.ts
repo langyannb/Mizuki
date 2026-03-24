@@ -265,12 +265,12 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					name: "官网",
+					url: "https://aevum.namikao.com",
 					external: true,
 					icon: "fa7-brands:github",
 				},
-				{
+			/*	{
 					name: "Bilibili",
 					url: "https://space.bilibili.com/701864046",
 					external: true,
@@ -281,10 +281,10 @@ export const navBarConfig: NavBarConfig = {
 					url: "https://gitee.com/matsuzakayuki/Mizuki",
 					external: true,
 					icon: "mdi:git",
-				},
+				},*/
 			],
 		},
-		{
+		/*{
 			name: "My",
 			url: "/content/",
 			icon: "material-symbols:person",
@@ -311,7 +311,7 @@ export const navBarConfig: NavBarConfig = {
 					external: false,
 				},
 			],
-		},
+		},*/
 		{
 			name: "About",
 			url: "/content/",
@@ -334,7 +334,7 @@ export const navBarConfig: NavBarConfig = {
 			url: "#",
 			icon: "material-symbols:more-horiz",
 			children: [
-				{
+			/*	{
 					name: "Projects",
 					url: "/projects/",
 					icon: "material-symbols:work",
@@ -343,7 +343,7 @@ export const navBarConfig: NavBarConfig = {
 					name: "Skills",
 					url: "/skills/",
 					icon: "material-symbols:psychology",
-				},
+				},*/
 				{
 					name: "Timeline",
 					url: "/timeline/",
