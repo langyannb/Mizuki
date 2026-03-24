@@ -12,7 +12,7 @@ export interface FriendItem {
 
 // 友情链接数据
 export const friendsData: FriendItem[] = [
-	{
+	/*{
 		id: 1,
 		title: "Astro",
 		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
@@ -75,7 +75,7 @@ export const friendsData: FriendItem[] = [
 		desc: "The web's most comprehensive resource for web developers",
 		siteurl: "https://developer.mozilla.org",
 		tags: ["Docs", "Reference"],
-	},
+	},*/
 ];
 
 // 获取所有友情链接数据

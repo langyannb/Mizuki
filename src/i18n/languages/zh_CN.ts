@@ -9,7 +9,7 @@ export const zh_CN: Translation = {
 	[Key.other]: "其他",
 
 	// 导航栏标题
-	[Key.navLinks]: "链接",
+	//[Key.navLinks]: "链接",
 	[Key.navMy]: "我的",
 	[Key.navAbout]: "关于",
 	[Key.navOthers]: "其他",
@@ -57,8 +57,8 @@ export const zh_CN: Translation = {
 	[Key.author]: "作者",
 	[Key.publishedAt]: "发布于",
 	[Key.license]: "许可协议",
-	[Key.anime]: "追番",
-	[Key.diary]: "日记",
+	//[Key.anime]: "追番",
+	//[Key.diary]: "日记",
 
 	// 番剧页面
 	[Key.animeTitle]: "我的追番记录",
@@ -120,7 +120,7 @@ export const zh_CN: Translation = {
 	[Key.unknownArtist]: "未知艺术家",
 
 	// 相册页面
-	[Key.albums]: "相册",
+//	[Key.albums]: "相册",
 	[Key.albumsSubtitle]: "记录生活中的美好瞬间",
 	[Key.albumsEmpty]: "暂无内容",
 	[Key.albumsEmptyDesc]: "还没有创建任何相册，快去添加一些美好的回忆吧！",
@@ -129,12 +129,12 @@ export const zh_CN: Translation = {
 	[Key.albumsPhotosCount]: "张照片",
 
 	// 设备页面
-	[Key.devices]: "我的设备",
+	//[Key.devices]: "我的设备",
 	[Key.devicesSubtitle]: "这里展示了我日常使用的各类设备",
 	[Key.devicesViewDetails]: "查看详情",
 
 	// 项目展示页面
-	[Key.projects]: "项目展示",
+//	[Key.projects]: "项目展示",
 	[Key.projectsSubtitle]: "我的开发项目作品集",
 	[Key.projectsAll]: "全部",
 	[Key.projectsWeb]: "网页应用",
