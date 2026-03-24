@@ -100,7 +100,7 @@ export const siteConfig: SiteConfig = {
 	// 标签样式配置
 	tagStyle: {
 		// 是否使用新样式（悬停高亮样式）还是旧样式（外框常亮样式）
-		useNewStyle: true,
+		useNewStyle: false,
 	},
 
 	// 壁纸模式配置
