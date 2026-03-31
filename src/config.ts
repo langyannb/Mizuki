@@ -85,7 +85,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	anime: {
-		mode: "bangumi", // 番剧页面模式："bangumi" 使用Bangumi API，"local" 使用本地配置，"bilibili" 使用Bilibili API
+		mode: "local", // 番剧页面模式："bangumi" 使用Bangumi API，"local" 使用本地配置，"bilibili" 使用Bilibili API
 	},
 
 	// 文章列表布局配置
@@ -329,28 +329,28 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		{
-			name: "Others",
-			url: "#",
-			icon: "material-symbols:more-horiz",
-			children: [
-			/*	{
-					name: "Projects",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				{
-					name: "Skills",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},*/
-				{
-					name: "Timeline",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
-				},
-			],
-		},
+		// {
+			// name: "Others",
+			// url: "#",
+			// icon: "material-symbols:more-horiz",
+			// children: [
+			// /*	{
+					// name: "Projects",
+					// url: "/projects/",
+					// icon: "material-symbols:work",
+				// },
+				// {
+					// name: "Skills",
+					// url: "/skills/",
+					// icon: "material-symbols:psychology",
+				// },*/
+				// {
+					// name: "Timeline",
+					// url: "/timeline/",
+					// icon: "material-symbols:timeline",
+				// },
+			// ],
+		// },
 	],
 };
 
